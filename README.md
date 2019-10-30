@@ -1,4 +1,4 @@
-# Build a food review site
+# Build a Food Review website 🌮🥑
 
 During this week we will meet-up in Sthlm – YAY! During those days we will practice our Javascript and API skills a bit more. During the days we will also work as a real team using Github - you will experience, first-hand, the issues and problems that can occur when working together with code. 
 
@@ -28,7 +28,7 @@ You should now have data from each restaurant on your page:
 Divide into pairs or groups of three and choose freely from the selection of features below. The groups will work separatley on features in their own `feature branch` and we will merge this into a bigger project before the demo. Ofc – have communication within the group and feel free to merge and commit code when you feel that the time is right. Help each-other and share knowledge in the team is always incouraged. 
 
 ### Features
-Suggestion of features for your site, you choose which ones to implement: 
+Suggestion of features for your site, choose the ones that interest you to implement: 
 
 **🎨Implement the randomly given design.**
 You don't need to implement all sections (if there's any that is not relevant to your site) but try and copy the page look and feel and design details. Feel free to make text, logo and other things your own – it's a tribute, not an exact copy. 
@@ -47,6 +47,9 @@ List the 3 latest reviews for each restaurant.
 
 **🖼Show image gallery**
 When clicking on the image of the retstaurant try and show an image gallery – a lightbox. With the photos given from the API.
+
+**📱Make the page responsive**
+To work on mobile, desktop or tablet. 
 
 Feel free to challenge yourself and team to come up with more features! This is your group project – you decided. 
 
