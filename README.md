@@ -33,27 +33,34 @@ Divide into pairs or groups of three and choose freely from the selection of fea
 Suggestion of features for your site, choose the ones that interest you to implement: 
 
 **🎨Implement the randomly given design.**
+
 You don't need to implement all sections (if there's any that is not relevant to your site) but try and copy the page look and feel and design details. Feel free to make text, logo and other things your own – it's a tribute, not an exact copy. 
 
 **💰Filter on price range** 
+
 Add so that your users can filter restaurants based on different price ranges. 
 
 **🚀Sort on price** 
+
 Add so that your users can sort the resturants on price, cheap to expensive using the `average_cost_for_two` parameter. 
 
 **💬List reviews** 
+
 List the 3 latest reviews for each restaurant. 
 
-**💬Sort on review ** 
+**💬Sort on review** 
+
 List the 3 latest reviews for each restaurant. 
 
 **🖼Show image gallery**
+
 When clicking on the image of the retstaurant try and show an image gallery – a lightbox. With the photos given from the API.
 
 **📱Make the page responsive**
+
 To work on mobile, desktop or tablet. 
 
-Feel free to challenge yourself and team to come up with more features! This is your group project – you decided. 
+Feel free to challenge yourself and team to come up with more or other features! This is your group project – you decided. 
 
 ### Feature freeze 
 There's a thing called [feature freeze.](https://en.wikipedia.org/wiki/Freeze_(software_engineering)), ours will be at 2 hours before the demo. That's when it's time for you to merge your project – and our teachers will have a bit of a though time. Expect merge conflicts at this point! After this point, try and only make smaller changes to your site and fix bugs. 
