@@ -1,13 +1,15 @@
 # Build a Food Review website 🌮🥑
 
-During this week we will meet-up in Sthlm – YAY! During those days we will practice our Javascript and API skills a bit more. During the days we will also work as a real team using Github - you will experience, first-hand, the issues and problems that can occur when working together with code. 
+During this week we will meet-up in Sthlm – YAY! During those days we will practice our Javascript and API skills a bit more. During the days we will also work as a real team using Github. You will experience, first-hand, the issues and struggles that can occur when working together with code. 
 
-During the session your team will be challenged to build a website that lists restaurants and their reviews and information – YUM 😋. Your page will be build based on the combination of a random selected cuisine + city + design. All data should be fetched from the Zomato API.  
+During the session your team will be challenged to build a website that lists restaurants, eviews and information based on location – YUM 😋. 
+
+Your page will be build based on a random combination of `cuisine` + `city` + `design` provided by the Technigo team on site. All data should be fetched from the [Zomato API.](https://developers.zomato.com/)  
 
 For example, maybe you will get challenged to build a website to list **indian** cuisine in **London.** 
 
 ## How to complete this task
-We have a very limited time-frame for this project. Therefore you need to have made this weeks practices before we meet-up.  That will make your group solve the main task quickly and can then focus on different features for the site during the meet-up. 
+We have a very limited time-frame for this project. Therefore you need to have made this weeks practices before we meet-up.  This will make your group solve the main task quickly and can then focus on different features for the site during the meet-up. 
 
 *The following steps should be done during the meet-up:* 
 
