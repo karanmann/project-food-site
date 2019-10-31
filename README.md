@@ -24,11 +24,11 @@ Togeteher as a mob, do the foundations of the project together. Make sure that y
 
 You should now have data from at least 10 restaurants from the `/search` endpoint on your page, and include the following data: 
 
-– The restaurant name
-– The average cost for a dinner there
-- The address of the restaurant
-– An image (you choose which image you'd like to display from the response)
-– Either the `aggregate_rating` or the `rating_text` for that restaurant
+* The restaurant name
+* The average cost for a dinner there
+* The address of the restaurant
+* An image (you choose which image you'd like to display from the response)
+* Either the `aggregate_rating` or the `rating_text` for that restaurant
 
 ### Step 3 
 
