@@ -81,4 +81,42 @@ Good luck!
 
 
 
+Build a Food Review website 🌮🥑
+
+During this week we will finally have a remote collaborative session – We can't wait! During those days we will practice our JavaScript and API skills a bit more. We will also practice working as a real team using GitHub. You will experience, first-hand, the issues and struggles that can occur when working together with code.
+
+During the session your team will be challenged to build a website that lists restaurants, reviews and information based on location – YUM 😋.
+
+Your page will be built based on a random combination of cuisine, city, and design provided by the Technigo team on site. All data should be fetched from the Zomato API.
+
+Your team's combination: Pizza restaurants in Dublin
+
+Your team has been tasked with using the Zomato API to list Pizza restaurants in Dublin in the style of the Deliveroo site:
+
+Features
+
+Below are suggestions for features for your site. You're free to choose the ones which are interesting to your team to implement:
+
+s - 💰Filter on price range Add so that your users can filter restaurants based on different price ranges.
+
+j - 🚀Sort on price Add so that your users can sort the resturants on price, cheap to expensive using the average_cost_for_two parameter.
+
+p - 💬List reviews List the 3 latest reviews for each restaurant.
+
+💬Filter on delivery options Make it so your users can choose to only show resturants which have delivery (has_online_delivery) or can be booked in advance (has_table_booking).
+s - 🖼Filter on reviews Make it so your users can choose to only show restaurants with good ratings.
+
+Feel free to challenge yourself and team to come up with more or other features! This is your group project – you decided.
+
+Feature freeze
+
+There's a thing called feature freeze., our feature freeze will be 2 hours before the demo. That's when it's time for you to merge your feature branches into the master branch. Our teachers will have a bit of a though time, since it's guaranteed there will be conflicts in your code (which happens when the same code is edited in two different branches). So expect merge conflicts at this point!
+
+Once all the feature branches are merged into master, you're free to try and make smaller changes to your site and fix bugs - but be careful to make sure it'll be demoable.
+
+Work as a team!
+
+Good luck!
+
+
 
