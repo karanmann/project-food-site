@@ -12,9 +12,22 @@
   border-bottom: 3px ridge rgba(0,0,0,.2);
   height: 80px;
   background: #e7ffdf;
+  position:relative
 }
 
-.burger-image {
+.edamam {
+  position: absolute;
+  top:13px;
+  left:70px;
+}
+
+.recipe-search {
+  position: absolute;
+  top:45px;
+  left:72px;
+}
+
+.edamam-image {
   height: 50px;
   width: 50px;
   margin-top: 10px;
