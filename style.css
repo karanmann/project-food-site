@@ -78,6 +78,8 @@
 
 .main-ingredient-container,
 .number-of-recipes-container{
+  display:flex;
+  flex-direction: column;
   margin-bottom: 30px;
   font-size: 20px;
 }
