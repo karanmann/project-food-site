@@ -172,6 +172,10 @@ main {
   border: 2px solid green;
 }
 
+.source {
+  font-size: 12px;
+}
+
 .footer {
   background-color: #95d5b2;
   /* position: absolute;
