@@ -4,41 +4,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Pizza</title>
+  <title>Edamam Recipe Search</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://developer.edamam.com/attribution/badge.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-
     <div class="navbar" >
-      <img class="burger-image" src="./assets/burger1.svg" alt="Burger">
+      <img class="burger-image" src="./assets/1519863002568.png" alt="Burger">
       <div class="hamburger">
         <div class="hamburger-div"></div>
         <div class="hamburger-div"></div>
         <div class="hamburger-div"></div>
       </div>
       <nav class="nav-links">
-        <a class="nav-link-black" href="#">SV</a>
+        <a class="nav-link-black" href="#">
+          <b>SV</b>
+        </a>
         <a href="#">
           <img class="nav-link-image" src="./assets/Person.png" alt="person"/>
-          LOG IN
+          <b>LOG IN</b>
         </a>
         <a href="#">
           <img class="nav-link-image" src="./assets/basket.png" alt="basket">
         </a>
       </nav>
-      
-
     </div>
   </header>
   <main>
     <section>
 <!-- FILTER -->
-
+      <h3 class="looking-h3">Looking for something Specific ...</h3>
+      <div class="filter-form">
+        <form class="form-filter" id="filter">
+          <!-- FILTER BY INGREDIENTS -->
+          <label class="ingredient">
+            <p>Main Ingredient</p>
+            <select class="ingredient-dropdown" id="main-ingredient" name="main-ingredient" form="filter-main-ingredient">
+              <option default selected disabled value="0">Select</option>
+              <option value="chicken">Chicken</option>
+              <option value="beef">Beef</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="pork">Pork</option>
+              <option value="vegan">Vegan</option>
+            </select>
+          </label>
+        </form>
+      </div>
+      <section class="recipe-list" id="recipeList">
+      <!--CODE INJECTED FROM JAVASCRIPT, with the restaurant cards and images-->
+      </section>
     </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+     <div id="edamam-badge" data-color="white"></div>
+     <p>Made by: Karan Mann</p>
+     <p>Made using : HTML, CSS, Flexbox, JavaScript</p>
   </footer>
   <script src="./script.js"></script>
 </body>
