@@ -82,17 +82,18 @@
   flex-direction: column;
   margin-bottom: 30px;
   font-size: 20px;
+  align-items: center;
 }
 
 #main-ingredient{
-  margin-left: 20px;
+  margin-top: 20px;
   font-size: 20px;
   height:40px;
   width:150px
 }
 
 #number-of-recipes {
-  margin-left: 20px;
+  margin-top:20px;
   font-size: 20px;
   height: 40px;
   width:80px
@@ -143,8 +144,7 @@ main {
   background-color: rgba(75,176,79,0.5);
   height: 40px;
   width: 100px;
-  margin: 30px 0;
-
+  margin: 20px 0;
 }
 
 .card-button:hover {
@@ -186,6 +186,27 @@ main {
 
 .recipe-card:hover {
   box-shadow: 4px 4px 2px 1px rgba(0,0, 0, .5)
+}
+
+.main-ingredient-container,
+.number-of-recipes-container{
+  flex-direction: row;
+}
+
+#main-ingredient{
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 20px;
+  height:40px;
+  width:150px
+}
+
+#number-of-recipes {
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 20px;
+  height: 40px;
+  width:80px
 }
 }
 
