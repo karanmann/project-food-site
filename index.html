@@ -38,19 +38,17 @@
 <!-- FILTER -->
       <h3 class="looking-h3">Looking for something Specific ...</h3>
       <div class="filter-form">
-        <form class="form-filter" id="filter">
-          <!-- FILTER BY INGREDIENTS -->
-          <label class="ingredient">
-            <p>Main Ingredient</p>
-            <select class="ingredient-dropdown" id="main-ingredient" name="main-ingredient" form="filter-main-ingredient">
-              <option default selected disabled value="0">Select</option>
-              <option value="chicken">Chicken</option>
-              <option value="beef">Beef</option>
-              <option value="vegetarian">Vegetarian</option>
-              <option value="pork">Pork</option>
-              <option value="vegan">Vegan</option>
-            </select>
-          </label>
+        <form onsubmit="fetchEdamamData(event)">
+          <!-- SEARCH BY MAIN-INGREDIENTS -->
+          <div class="main-ingredient-container">
+            <label for="ingredient">Search by Ingredient</label>
+            <input id="main-ingredient" type="text" required>
+          </div>
+          <div class="number-of-recipes-container">
+            <label for="recipies" >Number of Recipes</label>
+            <input id="number-of-recipes" type="number" required>
+          </div>
+          <input id="submit" name="submit" type="submit" value="submit">
         </form>
       </div>
       <section class="recipe-list" id="recipeList">

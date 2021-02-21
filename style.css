@@ -69,6 +69,7 @@
 
 main {
   background-color: #edf6f9;
+  min-height: 73vh;
 }
 
 .recipe-card {
