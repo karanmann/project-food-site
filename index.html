@@ -36,9 +36,12 @@
   <main>
     <section>
 <!-- FILTER -->
-      <h3 class="looking-h3">Looking for something Specific ...</h3>
-      <div class="filter-form">
-        <form onsubmit="fetchEdamamData(event)">
+      <h3 class="looking-h3">
+        <img class="nav-link-image" src="./assets/recipe.svg">
+        Lets help you find a great recipe to cook...
+      </h3>
+      <div>
+        <form class="filter-form" onsubmit="fetchEdamamData(event)">
           <!-- SEARCH BY MAIN-INGREDIENTS -->
           <div class="main-ingredient-container">
             <label for="ingredient">Search by Ingredient</label>
@@ -48,7 +51,7 @@
             <label for="recipies" >Number of Recipes</label>
             <input id="number-of-recipes" type="number" required>
           </div>
-          <input id="submit" name="submit" type="submit" value="submit">
+          <input id="submit" name="submit" type="submit" value="Search">
         </form>
       </div>
       <section class="recipe-list" id="recipeList">
@@ -57,9 +60,9 @@
     </section>
   </main>
   <footer class="footer">
-     <p><b>Made by: Karan Mann 👨‍🍳</b></p>
-     <p>Made using : HTML, CSS, Flexbox, JavaScript</p>
-     <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+     <p class="footer-p"><b>Made by: Karan Mann 👨‍🍳</b></p>
+     <p class="footer-p">Made using : HTML, CSS, Flexbox, JavaScript</p>
+     <div class="footer-p">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
      <div id="edamam-badge" data-color="white"></div>
   </footer>
   <script src="./script.js"></script>
