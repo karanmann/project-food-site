@@ -112,6 +112,12 @@
   width:80px
 }
 
+#main-ingredient,
+#number-of-recipes,
+#submit {
+  text-align: center;
+}
+
 main {
   background-color: #edf6f9;
   min-height: 73vh;
