@@ -17,10 +17,11 @@ const buildRecipeList = (json) => {
                   <img class="card-image" src="${recipeContainer.recipe.image}"></img>
                 </a>
                 <p class="card-yield"><b>Yield -</b> ${recipeContainer.recipe.yield}</p>
-                <p class="card-healthiness"><b>Healthiness -</b> ${recipeContainer.recipe.healthLabels}</p>
+                <p class="card-healthiness"><b>Healthiness -</b> ${recipeContainer.recipe.dietLabels}</p>
                 <a href="${recipeContainer.recipe.url}">
                   <button class="card-button">Recipe</button>
                 </a>
+                <p class="allergens"><b>Allergens - </b>${recipeContainer.recipe.cautions}</p>
                 <p class="source">
                   <b><i>Source - ${recipeContainer.recipe.source}</i></b>
                 </p>

@@ -172,6 +172,7 @@ main {
   border: 2px solid green;
 }
 
+.allergens,
 .source {
   font-size: 12px;
 }
