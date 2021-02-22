@@ -6,7 +6,7 @@ const YOUR_APP_KEY = "6e484f358af33d3806801aa4a000c22f"
 const buildRecipeList = (json) => {
   const recipeList = document.getElementById('recipeList')
   let output = ""
-  json.hits.forEach((recipeContainer) => {
+  json.hits.map((recipeContainer) => {  ///Can aslo use forEach
   console.log(recipeContainer)
   output += `
             <section class="recipe-card">
@@ -17,11 +17,11 @@ const buildRecipeList = (json) => {
                   <img class="card-image" src="${recipeContainer.recipe.image}"></img>
                 </a>
                 <p class="card-yield"><b>Yield -</b> ${recipeContainer.recipe.yield}</p>
-                <p class="card-healthiness"><b>Healthiness -</b> ${recipeContainer.recipe.dietLabels}</p>
+                <p class="card-healthiness"><b>Healthiness -</b> ${(recipeContainer.recipe.dietLabels).join(', ')}</p>
                 <a href="${recipeContainer.recipe.url}">
                   <button class="card-button">Recipe</button>
                 </a>
-                <p class="allergens"><b>Allergens - </b>${recipeContainer.recipe.cautions}</p>
+                <p class="allergens"><b>Allergens - </b>${(recipeContainer.recipe.cautions).join(', ')}</p>
                 <p class="source">
                   <b><i>Source - ${recipeContainer.recipe.source}</i></b>
                 </p>
